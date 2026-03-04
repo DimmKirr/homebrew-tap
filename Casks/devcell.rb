@@ -3,7 +3,7 @@ cask "devcell" do
   name "devcell"
   desc "Run AI coding agents in a consistent Docker dev environment"
   homepage "https://github.com/DimmKirr/devcell"
-  version "0.1.0"
+  version "0.2.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "devcell" do
   on_macos do
     on_intel do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-darwin-amd64.tar.gz"
-      sha256 "38ccb5fdc942f7e030adc5d0fc1da67ce24a49db0d61d5076c8518309baf9d54"
+      sha256 "99303687d00d6687c325f88c0f373379948b520004162a3bf4d0559319e70ad6"
     end
     on_arm do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-darwin-arm64.tar.gz"
-      sha256 "2ca0bfeeeed357762c04a58ae8d08a7134e3a2fbd05c1ec213a0051c8e836311"
+      sha256 "8610e64080f9219fcd66d467949054fd9d298f67449825918fc1bb705c11eae0"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-linux-amd64.tar.gz"
-      sha256 "d0cab2e139f312b10adc088d5ea63b6636877385694b410459db77f34e5a10ec"
+      sha256 "c8e76664f87015f433f9d866d352507b0dfd25515d7dc6a7c25b2cf8acddf0ca"
     end
     on_arm do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-linux-arm64.tar.gz"
-      sha256 "a2ebb2e13b3e0458259ca43f2fd19b870997af4cf5430ad793b1b2b288656fa9"
+      sha256 "82cfa373c09bfbd3b169c525a0159230e6c87df2b656bef6b868616210bf1c8f"
     end
   end
 
