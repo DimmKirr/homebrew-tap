@@ -14,22 +14,22 @@ cask "devcell-dev@0.0.0" do
   on_macos do
     on_intel do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-darwin-amd64.tar.gz"
-      sha256 "145c6c6fea460cacc13b26f2634e266c99533c972511273d2f7a73b09a6f59a1"
+      sha256 "f791e317b987f4b4bcd2f8a7b17ef406718c1585dd3bf9f06283e526530ea031"
     end
     on_arm do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-darwin-arm64.tar.gz"
-      sha256 "fda95f83b944195f317c048a6cbcef25b513c55e879594dbed37356e58697f46"
+      sha256 "537c12b3cec99931a98d1567beaf79f3d76ff808365f12b920530cc23aa389ba"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-linux-amd64.tar.gz"
-      sha256 "b16017e92e3a0476558d1919c54c055b54dc9acaa1ef115994a1acc302622705"
+      sha256 "f9420b1ef449474e2a332077770dcddd1addf93a425f5172c402adf52659a4bf"
     end
     on_arm do
       url "https://github.com/DimmKirr/devcell/releases/download/v#{version}/cell-linux-arm64.tar.gz"
-      sha256 "cc4057bfab94a6a09369506de71352947d8480672879174a8ee40254d0ea2c29"
+      sha256 "5b850a9890d86b321ea65d3fd726a6678e861cebb7946b11ea757fcd2fc2e6e8"
     end
   end
 
