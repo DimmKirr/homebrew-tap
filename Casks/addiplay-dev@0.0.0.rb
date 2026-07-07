@@ -4,22 +4,22 @@ cask "addiplay-dev@0.0.0" do
 
   on_macos do
     on_intel do
-      sha256 "c21f3d232bae879650903b115f256ab2cc167d57b7c934f9b74dfb57011a26c9"
+      sha256 "62004e2f7169fcadc926bf29ecde46a08a5d144219adf81514b2f8ee51ea8ac8"
       url "https://github.com/dimmkirr/addiplay/releases/download/v#{version}/addiplay_#{version}-dev_darwin_amd64.tar.gz"
     end
     on_arm do
-      sha256 "02c321c580a1279219238641410754544baf6c7803cbfc723d8d1eda2cf73aa6"
+      sha256 "ebd4ccb0ee8cdcd741821fa64275078f62d080b3e405d73eeebf5edee12b5152"
       url "https://github.com/dimmkirr/addiplay/releases/download/v#{version}/addiplay_#{version}-dev_darwin_arm64.tar.gz"
     end
   end
 
   on_linux do
     on_intel do
-      sha256 "79fd513694cccfbf575ec2e35f2f070c9934519c14fd6fe739d715ac18f646ad"
+      sha256 "cb352a8ae7359d98737af67b38e31d31dcc19a134b75e78cf19928a9cba1cbd1"
       url "https://github.com/dimmkirr/addiplay/releases/download/v#{version}/addiplay_#{version}-dev_linux_amd64.tar.gz"
     end
     on_arm do
-      sha256 "f6f9f4a54d955273993ba199e424c813b45d36ba7d03503c26c9a92454163708"
+      sha256 "bdf9f3beedc9e4203ec348fb3ff46a5f8df419a09e221df5acbcae2b5b7d8aa9"
       url "https://github.com/dimmkirr/addiplay/releases/download/v#{version}/addiplay_#{version}-dev_linux_arm64.tar.gz"
     end
   end
